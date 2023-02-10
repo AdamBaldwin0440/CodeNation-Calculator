@@ -1,38 +1,73 @@
-.App {
+.App{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  display: flex;
+ 
+  
+}
+.CalculatorWrap{
+  display: flex;
+  
+  width: 340px;
+  height: 420px;
+  background-color: rgb(86, 194, 245);
+  margin-top: 75px;
+  border: 2px double black;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#Display{
+  width: 240px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  margin: 5px;
+  padding-top: 10px;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Clear{
+  width: 240px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  font-size: 25px;
+}
+
+.leftkeys{
+flex: 75%;
+height: 90%;
+}
+
+#IndividualFuncKeys{
+  display: flex;
+  width: 65px;
+  height: 70px;
+  margin: 2px;
+  border: 2px black solid;
+  margin: 5px;
+  font-size: 45px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+#IndivNums{
+  width: 75px;
+  height: 65px;
+  margin: 2px;
+  font-size: 25px;
+  background-color: antiquewhite;
+}
+
+.numbers{
+  width: 240px;
+  height: 300px;
+  flex-wrap: wrap;
+  background-color: cadetblue;
+  border: 2px black solid;
+  margin: 5px;
+}
+.Operations{
+  flex-direction: column;
 }
